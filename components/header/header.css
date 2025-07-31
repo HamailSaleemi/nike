@@ -1,0 +1,36 @@
+.upper-nav a{
+    margin-inline: 10px;
+    
+}
+.upper-nav{
+    background-color: #ebe6e6;
+}
+
+.lower-nav{
+    height: 68px;
+    border-block: 1px  solid lightgray; ;
+}
+
+.logo{
+    height: 68px;
+}
+
+.primary-nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.primary-nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 15px;
+    color: black;
+    font-weight: 600;
+    height: 100%;
+}
+
+.primary-nav a:last-child{
+    border-bottom: 2px solid gray;
+}
